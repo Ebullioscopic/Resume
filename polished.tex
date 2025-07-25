@@ -1,0 +1,279 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[3]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \href{#3}{\raisebox{-0.2\height}\faGithub\ \underline{\small#2}}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Hariharan Mudaliar} \\ \vspace{1pt}
+    \href{https://tinyurl.com/hariharanmudaliar}{\raisebox{-0.2\height}\faLink\ \underline{tinyurl.com/hariharanmudaliar}} ~
+    \href{https://linkedin.com/in/hariharan-mudaliar}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/hariharan-mudaliar}} ~
+    \href{mailto:hrhn.mudaliar251@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{hrhn.mudaliar251@gmail.com}} ~
+    
+    \href{https://github.com/Ebullioscopic}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Ebullioscopic}} ~
+    \href{tel:+919429199029}{\raisebox{-0.2\height}\faPhone\ +91 9429199029}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {SRM Institute of Science and Technology}{2022 -- 2026}
+    {B. Tech, Computer Science and Engineering - Artificial Intelligence and Machine Learning, CGPA: 9.65}{Chennai, India}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Hebron Higher Secondary School}{2020 -- 2022}
+    {PCM with Computer Technologies, 88\%}{Ahmedabad, India}
+\resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, Swift, JavaScript, HTML/CSS, C, C++} \\
+     \textbf{Technologies/Frameworks}{: Django REST, Graphene, Kafka, Transformers, Diffusers, TensorFlow, PyTorch, Keras, Streamlit} \\
+     \textbf{Developer Tools}{: Xcode, Git, VS Code, Jupyter, Firebase, Jenkins, WordPress, CI/CD} \\
+     \textbf{Cloud}{: AWS (EC2, S3, RDS, CloudFront, EBS, ELB), Firebase, Supabase} \\
+     \textbf{Databases}{: MySQL, PostgreSQL, MongoDB, Redis} \\
+     \textbf{Others}{: REST APIs, LangChain, Ollama, BootStrap-5, Tailwind-CSS, OpenCV, MediaPipe} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Infosys}{Apr 2025 -- May 2025}
+      {iOS Developer Intern}{On Site - Mysuru}
+      \resumeItemListStart
+        \resumeItem{Developed a Generative AI Powered Hospital Management System with Django Backend.}
+        \resumeItem{Implemented the frontend as a native iOS app using SwiftUI and Swift, ensuring a seamless and responsive user experience.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Samsung India}{Jan 2024 -- Jul 2024}
+      {Research Intern}{Remote - Bengaluru}
+      \resumeItemListStart
+        \resumeItem{Developed a Generative AI Powered Web Scraped Offer Search Engine using LLaMA-3, LangChain, and HuggingFace Transformers under Samsung PRISM Worklet.}
+        \resumeItem{Utilized Django and Streamlit for backend development and integrated machine learning models using TensorFlow and PyTorch.}
+        \resumeItem{Implemented a cross-platform mobile interface with ReactJS and Tailwind-CSS for user-friendly interaction.}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+        {\textbf{TryIt} $|$ \emph{SwiftUI, Jetpack Compose, Django REST, Diffusers, ControlNet, SAM, FastAPI, Apache Kafka}}{}{https://github.com/Ebullioscopic/TryIt}
+        \resumeItemListStart
+          \resumeItem{Developed a Virtual Try On App enabling users to try on clothes, shoes, hairstyles, and more using an image, without physically trying them on.}
+          \resumeItem{Implemented an A100 GPU server backend with FastAPI and Apache Kafka for efficient pipeline and streaming management.}
+          \resumeItem{Utilized advanced generative models (Diffusers, ControlNet, SAM) for realistic and customizable virtual try-on experiences.}
+        \resumeItemListEnd
+\vspace{-10pt}
+    \resumeProjectHeading
+      {\textbf{DynamicIsland} $|$ \emph{Swift, SwiftUI, UIKit}}{}{https://github.com/Ebullioscopic/DynamicIsland}
+      \resumeItemListStart
+        \resumeItem{Enhanced the notch on MacBook M3 and M4 Pro devices with interactive widgets, transforming it into a control center for multitasking.}
+        \resumeItem{Developed a set of customizable widget options, improving user experience for streamlined task management.}
+      \resumeItemListEnd
+      
+    \resumeProjectHeading
+      {\textbf{Phi-3 Math Fine Tuned with Orca Dataset} $|$ \emph{Python, Jupyter, Transformers}}{}{https://github.com/Ebullioscopic/Phi-3-Math-FineTuned}
+      \resumeItemListStart
+        \resumeItem{Fine-tuned an AI model on synthetic math datasets to improve accuracy in grade-school problem-solving.}
+        \resumeItem{Achieved high accuracy in solving word problems, contributing to educational and tutoring applications.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PATENTS-----------
+\section{Patent}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {\textbf{Method and Device for Generating Personalized Content}}{\textbf{July 21, 2025}}
+    {Indian Patent Application No. 202441067717}{Samsung Electronics Co., Ltd.}
+    \resumeItemListStart
+        \resumeItem{Provisional on: September 06, 2024}
+        \resumeItem{Patent Granted for creating a Novel Retrieval Augmented Generation Model for Personalized Content Generation with any LLM, along with Image generated content.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://www.credly.com/badges/80ab1c0f-a948-433c-a481-9a0140b2c667/public_url}{\faLink\ GitHub Foundations}}{GitHub}{}{Jun 2025}
+      
+    \resumeSubheading
+      {\href{https://www.credly.com/badges/e5f7060e-c75f-463a-b1ee-a8597280c6d5/public_url}{\faLink\ NVIDIA-Certified Associate: Generative AI LLMs}}{NVIDIA}{}{Jan 2025}
+
+    \resumeSubheading
+      {\href{101053655OCI2024FNDCFA}{\faLink\ Oracle Cloud Infrastructure 2024 Certified Foundations Associate}}{Oracle}{}{Dec 2024}
+      
+    \resumeSubheading
+      {\href{https://coursera.org/verify/PMENMO64FT5M}{\faLink\ Principles of UI/UX Design}}{Meta}{}{Oct 2024}
+
+
+    \resumeSubheading
+      {\href{https://www.credly.com/go/xfY4rgIm}{\faLink\ AWS Academy Machine Learning Foundations}}{AWS Academy Graduate}{}{May 2023}
+
+  \resumeSubHeadingListEnd
+
+%-----------AWARDS-----------
+\section{Awards}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Winner - Standard Chartered Hackathon}{Apr 2025}
+      {Standard Chartered Bank}{}
+      \resumeItemListStart
+        \resumeItem{Developed an Agentic AI Powered Optical Character Recognition and Retrieval Augmented Generation Model for extracting, transforming and loading data from Government ID Cards}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Winner - Remote Sensing AI Hackathon}{Mar 2024}
+      {IEEE GRSS - NASA - SRMIST}{}
+      \resumeItemListStart
+        \resumeItem{Developed a Custom Transformer Architecture using the Metal Performance Shaders to process a Masking Algorithm for Burn Scars Dataset.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Gold Medalist - Research Day 2024}{Mar 2024}
+      {SRM Institute of Science and Technology}{}
+      \resumeItemListStart
+        \resumeItem{Awarded the highest distinction for pioneering work in Generative AI powered Image Stitching Satellite Clusters for Defense Applications related to Reconnaissance.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Winner - SRM Hackathon 8.0}{Mar 2024}
+      {Multi College Hackathon by SRM Institute of Science and Technology}{}
+      \resumeItemListStart
+        \resumeItem{Developed a Generative AI Powered Geriatric Assistance Rover to help Youngsters take care of their elder family members while they're away from them}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Winner - FinTechz-AI 2024}{Jul 2024}
+      {National AI-based Hackathon for FinTech Solutions}{}
+      \resumeItemListStart
+        \resumeItem{Developed a FinTech AI solution leveraging predictive analytics for loan risk assessment, winning the top position among over 500 participants.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kodekshetra 2023}{May 2023}
+      {Hackathon by ThinkDigital Chapter SRM (National level)}{}
+      \resumeItemListStart
+        \resumeItem{Secured 1st place in a national-level coding contest, showcasing expertise in algorithmic problem-solving and time-efficient coding.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Silver Medalist - Digital Art Domain}{Oct 2023}
+      {SRM Euphoria’23}{}
+      \resumeItemListStart
+        \resumeItem{Received recognition for exceptional work in digital art, highlighting creativity and advanced design skills.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXTRACURRICULAR-----------
+\section{Extracurricular}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Technical Lead and Editor - SRM Hostels}{Jan 2023 -- May 2023}
+      {Editor and Publisher of Hostel Magazines}{}
+      
+    \resumeSubheading
+      {UI/UX and Generative AI Training Associate}{Aug 2023 -- Present}
+      {CINTEL Association, SRMIST}{}
+      
+  \resumeSubHeadingListEnd
+
+\end{document}
